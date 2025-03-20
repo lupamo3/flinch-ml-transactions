@@ -1,7 +1,12 @@
 # ETL Solution Design for a Large Financial Institution
 
 ## Overview
-This solution is designed to integrate multiple rapidly growing SQL databases that contain transactional data. The goal is to analyze historic customer spending patterns, develop a fraud prediction model, and extract market insights on spending trends. The design is tailored for a large bank, ensuring scalability, maintainability, and efficiency.
+I have designed a solution that is built on AWS to mock my previous ETL experience on AWS, to ensure end to end consistency,
+There are a few additions including using Terraform to manage the different services etc that i haven't included. 
+This solution is designed to integrate multiple rapidly growing SQL databases that contain transactional data. 
+The goal is to analyze historic customer spending patterns, develop a fraud prediction model, and extract market insights on spending trends. 
+The design is tailored for a large bank, ensuring scalability, maintainability, and efficiency.
+FOcus is 0n both the streaming and batched data, as batched data can be hourly, weekly, daily or even monthly data and continuous streaming data  
 
 ---
 
